@@ -41,7 +41,7 @@ public:
         dereferenced = false;
     }
 
-    void PrintProfile() {
+    void PrintProfile() const {
         std::cout << "==========================================================================" << std::endl;
         std::cout << "Name and type: " << variableName << " " << variableType << std::endl;
         std::cout << "Contains Declaration: " << containsDeclaration << " " << "Containing class: "
